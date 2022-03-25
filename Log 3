@@ -1,0 +1,363 @@
+[DEBUG @ 23:25:03 | IPA/LibraryLoader] Resolving library 0Harmony, Version=2.7.0.0, Culture=neutral, PublicKeyToken=null
+[DEBUG @ 23:25:03 | IPA] Initializing logger
+[DEBUG @ 23:25:03 | IPA/LibraryLoader] Looking for file 0Harmony.dll
+[DEBUG @ 23:25:03 | IPA/LibraryLoader] Found file 0Harmony.dll as C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Libs\0Harmony.dll
+[DEBUG @ 23:25:03 | IPA/LibraryLoader] Resolving library Hive.Versioning, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null
+[DEBUG @ 23:25:03 | IPA/LibraryLoader] Looking for file Hive.Versioning.dll
+[DEBUG @ 23:25:03 | IPA/LibraryLoader] Found file Hive.Versioning.dll as C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Libs\Hive.Versioning.dll
+[DEBUG @ 23:25:03 | IPA/LibraryLoader] Resolving library SemVer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[DEBUG @ 23:25:03 | IPA/LibraryLoader] Looking for file SemVer.dll
+[DEBUG @ 23:25:03 | IPA/LibraryLoader] Found file SemVer.dll as C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Libs\SemVer.dll
+[DEBUG @ 23:25:03 | IPA/LibraryLoader] Resolving library MonoMod.RuntimeDetour, Version=21.12.13.1, Culture=neutral, PublicKeyToken=null
+[DEBUG @ 23:25:03 | IPA/LibraryLoader] Looking for file MonoMod.RuntimeDetour.dll
+[DEBUG @ 23:25:03 | IPA/LibraryLoader] Found file MonoMod.RuntimeDetour.dll as C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Libs\MonoMod.RuntimeDetour.dll
+[DEBUG @ 23:25:03 | IPA/LibraryLoader] Resolving library MonoMod.Utils, Version=21.12.13.1, Culture=neutral, PublicKeyToken=null
+[DEBUG @ 23:25:03 | IPA/LibraryLoader] Looking for file MonoMod.Utils.dll
+[DEBUG @ 23:25:03 | IPA/LibraryLoader] Found file MonoMod.Utils.dll as C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Libs\MonoMod.Utils.dll
+[DEBUG @ 23:25:03 | IPA/LibraryLoader] Resolving library Mono.Cecil, Version=0.11.4.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[DEBUG @ 23:25:03 | IPA/LibraryLoader] Looking for file Mono.Cecil.dll
+[DEBUG @ 23:25:03 | IPA/LibraryLoader] Found file Mono.Cecil.dll as C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Libs\Mono.Cecil.dll
+[DEBUG @ 23:25:03 | IPA/Config] Generated impl ReadFrom IPA.Config.SelfConfig<Generated>
+[DEBUG @ 23:25:03 | IPA] SelfConfig Changed called
+[DEBUG @ 23:25:03 | IPA/Config] Generated impl WriteTo IPA.Config.SelfConfig<Generated>
+[DEBUG @ 23:25:03 | IPA/Config] Generated impl ReadFrom IPA.Loader.DisabledConfig<Generated>
+[DEBUG @ 23:25:03 | IPA] Configuring exit handlers
+[DEBUG @ 23:25:03 | IPA/LibraryLoader] Resolving library Mono.Cecil, Version=0.10.4.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[DEBUG @ 23:25:03 | IPA/LibraryLoader] Looking for file Mono.Cecil.dll
+[DEBUG @ 23:25:03 | IPA/LibraryLoader] Found file Mono.Cecil.dll as C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Libs\Mono.Cecil.dll
+[DEBUG @ 23:25:03 | IPA/Injector] Prepping bootstrapper
+[DEBUG @ 23:25:03 | IPA/Injector] Finding backup
+[DEBUG @ 23:25:03 | IPA/Config] Generated impl WriteTo IPA.Loader.DisabledConfig<Generated>
+[DEBUG @ 23:25:03 | IPA/Injector] Ensuring patch on UnityEngine.CoreModule exists
+[DEBUG @ 23:25:03 | IPA/LibraryLoader] Resolving library Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c
+[DEBUG @ 23:25:03 | IPA/LibraryLoader] Looking for file Ionic.Zip.dll
+[DEBUG @ 23:25:03 | IPA/LibraryLoader] Found file Ionic.Zip.dll as C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Libs\Ionic.Zip.dll
+[DEBUG @ 23:25:03 | IPA] Compressing log file C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Logs\2022.03.24.23.12.26.log
+[DEBUG @ 23:25:03 | IPA/Injector] Ensuring game assemblies are virtualized
+[DEBUG @ 23:25:03 | IPA/Injector] Virtualizing Main.dll
+[DEBUG @ 23:25:03 | IPA/Injector] Applying anti-yeet patch
+[DEBUG @ 23:25:04 | IPA/Injector] Virtualizing Core.dll
+[DEBUG @ 23:25:04 | IPA/Injector] Virtualizing HMLib.dll
+[DEBUG @ 23:25:04 | IPA/Injector] Virtualizing HMUI.dll
+[DEBUG @ 23:25:04 | IPA/Injector] Virtualizing HMRendering.dll
+[DEBUG @ 23:25:04 | IPA/Injector] Virtualizing VRUI.dll
+[DEBUG @ 23:25:04 | IPA/Injector] Virtualizing BeatmapCore.dll
+[DEBUG @ 23:25:04 | IPA/Injector] Virtualizing GameplayCore.dll
+[DEBUG @ 23:25:04 | IPA/Injector] Virtualizing HMLibAttributes.dll
+[INFO @ 23:25:04 | IPA/Injector] Installing bootstrapper took 00:00:01.2004175
+[DEBUG @ 23:25:04 | IPA] GameVersion set early to 1.20.0
+[DEBUG @ 23:25:04 | IPA] SelfConfig Changed called
+[DEBUG @ 23:25:04 | IPA/Config] Generated impl WriteTo IPA.Config.SelfConfig<Generated>
+[DEBUG @ 23:25:04 | IPA/AntiMalware] Antimalware engine initialized with IPA.AntiMalware.WindowsWin32AntiMalware
+[DEBUG @ 23:25:04 | IPA/LibraryLoader] Resolving library Newtonsoft.Json, Version=12.0.0.0, Culture=neutral
+[DEBUG @ 23:25:04 | IPA/LibraryLoader] Looking for file Newtonsoft.Json.dll
+[DEBUG @ 23:25:04 | IPA/LibraryLoader] Found file Newtonsoft.Json.dll as C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Libs\Newtonsoft.Json.dll
+[INFO @ 23:25:05 | IPA] Configuring permissions took 00:00:00.0499048
+[DEBUG @ 23:25:05 | IPA/Loader] Adding info for BeatSaverDownloader.dll
+[DEBUG @ 23:25:05 | IPA/Loader] Adding info for BeatSaverVoting.dll
+[DEBUG @ 23:25:05 | IPA/Loader] Adding info for BSML.dll
+[DEBUG @ 23:25:05 | IPA/Loader] Adding info for BS_Utils.dll
+[DEBUG @ 23:25:06 | IPA/Loader] Adding info for NalulunaAvatars.dll
+[DEBUG @ 23:25:06 | IPA/Loader] Adding info for ScoreSaber.dll
+[DEBUG @ 23:25:07 | IPA/Loader] Adding info for SiraUtil.dll
+[DEBUG @ 23:25:07 | IPA/Loader] Adding info for SongCore.dll
+[DEBUG @ 23:25:07 | IPA/Loader] Adding info for bare manifest BeatSaverSharp.manifest
+[DEBUG @ 23:25:07 | IPA/Loader] Adding info for bare manifest INIParser.manifest
+[DEBUG @ 23:25:07 | IPA/Loader] Adding info for bare manifest OVRLipSync.manifest
+[WARNING @ 23:25:07 | IPA/Loader/Features] Encountered old features used. They no longer do anything, please move to the new format.
+[WARNING @ 23:25:07 | IPA/Loader] Bare manifest ScoreSaberSharp.manifest does not declare any files. Dependency resolution and verification cannot be completed.
+[DEBUG @ 23:25:07 | IPA/Loader] Adding info for bare manifest ScoreSaberSharp.manifest
+[INFO @ 23:25:07 | IPA/Loader] Loading metadata took 00:00:02.6108585
+[DEBUG @ 23:25:07 | IPA/Loader/Features] Executing DefineFeature Init
+[DEBUG @ 23:25:07 | IPA/Config] Generated impl WriteTo IPA.Loader.DisabledConfig<Generated>
+[INFO @ 23:25:07 | IPA/Loader] Calculating load order took 00:00:00.0421795
+[DEBUG @ 23:25:08 | IPA] Plugins loaded
+[DEBUG @ 23:25:08 | IPA] Beat Saber IPA(BSIPA@4.2.2)() from 'IPA.exe', INI Parser(Ini Parser@2.5.9)() from 'Plugins\INIParser.manifest', BS_Utils(BS Utils@1.12.0)(BS_Utils.Plugin) from 'Plugins\BS_Utils.dll', BeatSaberMarkupLanguage(BeatSaberMarkupLanguage@1.6.3)(BeatSaberMarkupLanguage.Plugin) from 'Plugins\BSML.dll', SongCore(SongCore@3.9.5)(SongCore.Plugin) from 'Plugins\SongCore.dll', BeatSaverSharp(BeatSaverSharp@3.4.2)() from 'Plugins\BeatSaverSharp.manifest', ScoreSaberSharp(ScoreSaberSharp@0.1.0)() from 'Plugins\ScoreSaberSharp.manifest', BeatSaver Downloader(BeatSaverDownloader@5.8.1)(BeatSaverDownloader.Plugin) from 'Plugins\BeatSaverDownloader.dll', SiraUtil(SiraUtil@3.0.5)(SiraUtil.Plugin) from 'Plugins\SiraUtil.dll', ScoreSaber(ScoreSaber@3.2.3)(ScoreSaber.Plugin) from 'Plugins\ScoreSaber.dll', BeatSaverVoting(BeatSaverVoting@2.3.4)(BeatSaverVoting.Plugin) from 'Plugins\BeatSaverVoting.dll', OVRLipSync(OVRLipSync@1.42.0)() from 'Plugins\OVRLipSync.manifest', NalulunaAvatars(NalulunaAvatars@0.2.24)(NalulunaAvatars.Plugin) from 'Plugins\NalulunaAvatars.dll'
+[WARNING @ 23:25:08 | UnityEngine] OnLevelWasLoaded was found on PluginComponent
+[WARNING @ 23:25:08 | UnityEngine] This message has been deprecated and will be removed in a later version of Unity.
+[WARNING @ 23:25:08 | UnityEngine] Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+[WARNING @ 23:25:08 | IPA/Loader] Mod BeatSaberMarkupLanguage developed for game version 1.19.0, so it may not work properly.
+[DEBUG @ 23:25:08 | IPA/Config] Generated impl ReadFrom BeatSaberMarkupLanguage.Config<Generated>
+[DEBUG @ 23:25:08 | IPA/Config] Generated impl WriteTo BeatSaberMarkupLanguage.Config<Generated>
+[DEBUG @ 23:25:08 | IPA/Config] Generated impl ReadFrom SongCore.SConfiguration<Generated>
+[WARNING @ 23:25:08 | IPA/Loader] Mod ScoreSaberSharp developed for game version 1.6.0, so it may not work properly.
+[DEBUG @ 23:25:08 | IPA/Config] Generated impl WriteTo SongCore.SConfiguration<Generated>
+[DEBUG @ 23:25:08 | IPA/LibraryLoader] Resolving library BeatSaverSharp, Version=3.2.0.0, Culture=neutral, PublicKeyToken=null
+[DEBUG @ 23:25:08 | IPA/LibraryLoader] Looking for file BeatSaverSharp.dll
+[DEBUG @ 23:25:08 | IPA/LibraryLoader] Found file BeatSaverSharp.dll as C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Libs\BeatSaverSharp.dll
+[NOTICE @ 23:25:08 | IPA/Loader] Plugin BeatSaver Downloader has no methods marked [OnExit] or [OnDisable]. Is this intentional?
+[DEBUG @ 23:25:08 | IPA/Config] Generated impl ReadFrom SiraUtil.Config<Generated>
+[DEBUG @ 23:25:08 | IPA/Config] Generated impl WriteTo SiraUtil.Config<Generated>
+[DEBUG @ 23:25:08 | IPA/Config] Generated impl WriteTo SiraUtil.Config<Generated>
+[DEBUG @ 23:25:09 | SiraUtil] Found bind attribute in type 'ScoreSaber.Core.ReplaySystem.HarmonyPatches.FPFCPatch'
+[WARNING @ 23:25:09 | IPA/Loader] Mod OVRLipSync developed for game version 1.14.0, so it may not work properly.
+[DEBUG @ 23:25:09 | NalulunaAvatars] NalulunaAvatars 0.2.24
+[DEBUG @ 23:25:09 | NalulunaAvatars] FANBOX
+[DEBUG @ 23:25:09 | IPA/Config] Generated impl ReadFrom NalulunaAvatars.PluginConfig<Generated>
+[DEBUG @ 23:25:09 | IPA/Config] Generated impl WriteTo NalulunaAvatars.PluginConfig<Generated>
+[DEBUG @ 23:25:09 | NalulunaAvatars] Config loaded
+[INFO @ 23:25:09 | IPA] Beat Saber
+[INFO @ 23:25:09 | IPA] Running on Unity 2019.4.28f1
+[INFO @ 23:25:09 | IPA] Game version 1.20.0
+[INFO @ 23:25:09 | IPA] -----------------------------
+[INFO @ 23:25:09 | IPA] Loading plugins from Plugins and found 13
+[INFO @ 23:25:09 | IPA] -----------------------------
+[INFO @ 23:25:09 | IPA] Beat Saber IPA (BSIPA): 4.2.2
+[INFO @ 23:25:09 | IPA] INI Parser (Ini Parser): 2.5.9
+[INFO @ 23:25:09 | IPA] BS_Utils (BS Utils): 1.12.0
+[INFO @ 23:25:09 | IPA] BeatSaberMarkupLanguage (BeatSaberMarkupLanguage): 1.6.3
+[INFO @ 23:25:09 | IPA] SongCore (SongCore): 3.9.5
+[INFO @ 23:25:09 | IPA] BeatSaverSharp (BeatSaverSharp): 3.4.2
+[INFO @ 23:25:09 | IPA] ScoreSaberSharp (ScoreSaberSharp): 0.1.0
+[INFO @ 23:25:09 | IPA] BeatSaver Downloader (BeatSaverDownloader): 5.8.1
+[INFO @ 23:25:09 | IPA] SiraUtil (SiraUtil): 3.0.5
+[INFO @ 23:25:09 | IPA] ScoreSaber (ScoreSaber): 3.2.3
+[INFO @ 23:25:09 | IPA] BeatSaverVoting (BeatSaverVoting): 2.3.4
+[INFO @ 23:25:09 | IPA] OVRLipSync (OVRLipSync): 1.42.0
+[INFO @ 23:25:09 | IPA] NalulunaAvatars (NalulunaAvatars): 0.2.24
+[INFO @ 23:25:09 | IPA] -----------------------------
+[INFO @ 23:25:09 | IPA] Initializing plugins took 00:00:00.9935600
+[DEBUG @ 23:25:09 | BS_Utils] [BS-Utils]  Applying Harmony Patches
+[DEBUG @ 23:25:09 | IPA/LibraryLoader] Resolving library INIParser, Version=2.5.9.0, Culture=neutral, PublicKeyToken=79af7b307b65cf3c
+[DEBUG @ 23:25:09 | IPA/LibraryLoader] Looking for file INIParser.dll
+[DEBUG @ 23:25:09 | IPA/LibraryLoader] Found file INIParser.dll as C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Libs\INIParser.dll
+[INFO @ 23:25:10 | BeatSaver Downloader] Creating sprites...
+[INFO @ 23:25:10 | BeatSaver Downloader] Creating sprites... Done!
+[DEBUG @ 23:25:11 | NalulunaAvatars] Plugin.OnEnable
+[DEBUG @ 23:25:11 | IPA/LibraryLoader] Resolving library NalulunaAvatars.resources, Version=0.2.24.0, Culture=en-US, PublicKeyToken=null
+[DEBUG @ 23:25:11 | IPA/LibraryLoader] Looking for file NalulunaAvatars.resources.dll
+[CRITICAL @ 23:25:11 | IPA/LibraryLoader] No library NalulunaAvatars.resources, Version=0.2.24.0, Culture=en-US, PublicKeyToken=null found
+[DEBUG @ 23:25:11 | IPA/LibraryLoader] Resolving library NalulunaAvatars.resources, Version=0.2.24.0, Culture=en, PublicKeyToken=null
+[DEBUG @ 23:25:11 | IPA/LibraryLoader] Looking for file NalulunaAvatars.resources.dll
+[CRITICAL @ 23:25:11 | IPA/LibraryLoader] No library NalulunaAvatars.resources, Version=0.2.24.0, Culture=en, PublicKeyToken=null found
+[DEBUG @ 23:25:12 | IPA/LibraryLoader] Resolving library CustomAvatar, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[DEBUG @ 23:25:12 | IPA/LibraryLoader] Looking for file CustomAvatar.dll
+[CRITICAL @ 23:25:12 | IPA/LibraryLoader] No library CustomAvatar, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null found
+[DEBUG @ 23:25:12 | NalulunaAvatars] CustomAvatar not found
+[DEBUG @ 23:25:12 | NalulunaAvatars] CustomAvatar assembly loaded
+[DEBUG @ 23:25:12 | NalulunaAvatars] Applying Harmony patches
+[DEBUG @ 23:25:12 | NalulunaAvatars] NalulunaAvatarsController: Awake()
+[DEBUG @ 23:25:12 | NalulunaAvatars] CreateLights
+[DEBUG @ 23:25:12 | NalulunaAvatars] UpdateMenuSceneLight
+[DEBUG @ 23:25:12 | NalulunaAvatars] System.DllNotFoundException: openvr_api
+[DEBUG @ 23:25:12 | NalulunaAvatars]   at (wrapper managed-to-native) Valve.VR.OpenVRInterop.GetInitToken()
+[DEBUG @ 23:25:12 | NalulunaAvatars]   at Valve.VR.OpenVR.GetInitToken () [0x00000] in <c8b4821f87ea41aa9b5e7cedf3b733d8>:0 
+[DEBUG @ 23:25:12 | NalulunaAvatars]   at Valve.VR.OpenVR+COpenVRContext.CheckClear () [0x00005] in <c8b4821f87ea41aa9b5e7cedf3b733d8>:0 
+[DEBUG @ 23:25:12 | NalulunaAvatars]   at Valve.VR.OpenVR+COpenVRContext.VRSystem () [0x00000] in <c8b4821f87ea41aa9b5e7cedf3b733d8>:0 
+[DEBUG @ 23:25:12 | NalulunaAvatars]   at Valve.VR.OpenVR.get_System () [0x00005] in <c8b4821f87ea41aa9b5e7cedf3b733d8>:0 
+[DEBUG @ 23:25:12 | NalulunaAvatars]   at NRhR??a..ctor () [0x00067] in <d0c8e5e1cabe49c7a25cee25fd1f9255>:0 
+[DEBUG @ 23:25:12 | NalulunaAvatars] TrackerManager: openvr=False
+[DEBUG @ 23:25:12 | NalulunaAvatars] NalulunaAvatars.Main.TrackerManager: First Update()
+[DEBUG @ 23:25:12 | NalulunaAvatars] GetDevices: count=0
+[DEBUG @ 23:25:12 | NalulunaAvatars] NalulunaAvatars.Main.TrackerManager: First Update(): End
+[DEBUG @ 23:25:12 | SiraUtil] Installing: SiraInitializationInstaller onto PCAppInit
+[DEBUG @ 23:25:12 | SiraUtil] Installing: SiraSettingsInstaller onto PCAppInit
+[INFO @ 23:25:12 | UnityEngine] Init OculusMRCManager
+[DEBUG @ 23:25:13 | BeatSaberMarkupLanguage] Font loading complete
+[DEBUG @ 23:25:14 | BeatSaberMarkupLanguage] Reading fallbacks for 'Segoe UI'
+[DEBUG @ 23:25:14 | BeatSaberMarkupLanguage] Reading fallback 'Tahoma'
+[DEBUG @ 23:25:14 | BeatSaberMarkupLanguage] Reading fallback 'Meiryo UI'
+[DEBUG @ 23:25:14 | BeatSaberMarkupLanguage] -> Not found
+[DEBUG @ 23:25:14 | BeatSaberMarkupLanguage] Reading fallback 'Meiryo UI'
+[DEBUG @ 23:25:14 | BeatSaberMarkupLanguage] -> Not found
+[DEBUG @ 23:25:14 | BeatSaberMarkupLanguage] Reading fallback 'MS UI Gothic'
+[DEBUG @ 23:25:14 | BeatSaberMarkupLanguage] Reading fallback 'Microsoft JhengHei UI'
+[DEBUG @ 23:25:14 | BeatSaberMarkupLanguage] Reading fallback 'Microsoft JhengHei UI'
+[DEBUG @ 23:25:14 | BeatSaberMarkupLanguage] Reading fallback 'Microsoft YaHei UI'
+[DEBUG @ 23:25:14 | BeatSaberMarkupLanguage] Reading fallback 'Microsoft YaHei UI'
+[DEBUG @ 23:25:14 | BeatSaberMarkupLanguage] Reading fallback 'Malgun Gothic'
+[DEBUG @ 23:25:14 | BeatSaberMarkupLanguage] Reading fallback 'Malgun Gothic'
+[DEBUG @ 23:25:14 | BeatSaberMarkupLanguage] Reading fallback 'PMingLiU'
+[DEBUG @ 23:25:14 | BeatSaberMarkupLanguage] -> Not found
+[DEBUG @ 23:25:14 | BeatSaberMarkupLanguage] Reading fallback 'SimSun'
+[DEBUG @ 23:25:14 | BeatSaberMarkupLanguage] Reading fallback 'Gulim'
+[DEBUG @ 23:25:14 | BeatSaberMarkupLanguage] -> Not found
+[DEBUG @ 23:25:14 | BeatSaberMarkupLanguage] Reading fallback 'Yu Gothic UI'
+[DEBUG @ 23:25:14 | BeatSaberMarkupLanguage] -> Not found
+[DEBUG @ 23:25:14 | BeatSaberMarkupLanguage] Reading fallback 'Yu Gothic UI'
+[DEBUG @ 23:25:14 | BeatSaberMarkupLanguage] -> Not found
+[DEBUG @ 23:25:14 | BeatSaberMarkupLanguage] Reading fallback 'Segoe UI Symbol'
+[DEBUG @ 23:25:14 | BeatSaberMarkupLanguage] Waiting for default font presence
+[DEBUG @ 23:25:14 | BeatSaberMarkupLanguage] Setting up default font fallbacks
+[DEBUG @ 23:25:14 | NalulunaAvatars] UpdateTrackerRole: Tracker not found
+[DEBUG @ 23:25:19 | NalulunaAvatars] OnMenuSceneActive
+[DEBUG @ 23:25:19 | NalulunaAvatars] UpdateMirror
+[DEBUG @ 23:25:19 | NalulunaAvatars] LoadAvatar: avatar=AliciaSolid.vrm, forceReload=False
+[DEBUG @ 23:25:19 | NalulunaAvatars] LoadVRMAvatar: begin, fileName=C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\NalulunaAvatars\AliciaSolid.vrm, vmc=False
+[DEBUG @ 23:25:19 | NalulunaAvatars] LoadVRMAvatar: 1: 0
+[DEBUG @ 23:25:19 | SiraUtil] Installing: FPFCInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 23:25:19 | SiraUtil] Installing: SiraMenuInstaller onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 23:25:19 | SiraUtil] Installing: #=zW3yDpMBs7uhBK$Ayc6VSayc= onto MainSettingsMenuViewControllersInstaller
+[DEBUG @ 23:25:20 | ScoreSaber] PlayerService Setup!
+[DEBUG @ 23:25:20 | ScoreSaber] PanelView Setup!
+[DEBUG @ 23:25:20 | ScoreSaber] LeaderboardService Setup
+[DEBUG @ 23:25:20 | ScoreSaber] Upload service setup!
+[DEBUG @ 23:25:20 | ScoreSaber] GlobalLeaderboardService Setup
+[DEBUG @ 23:25:20 | ScoreSaber] GlobalViewController Setup
+[DEBUG @ 23:25:20 | ScoreSaber] ScoreSaberFlowCoordinator Setup
+[DEBUG @ 23:25:20 | NalulunaAvatars] LoadVRMAvatar: 2: 0
+[DEBUG @ 23:25:20 | NalulunaAvatars] LoadVRMAvatar: 3: 0
+[DEBUG @ 23:25:20 | NalulunaAvatars] VRM meta: title=Alicia Solid, author=© DWANGO Co., Ltd.
+[DEBUG @ 23:25:20 | NalulunaAvatars] LoadVRMAvatar: 4: 0
+[DEBUG @ 23:25:21 | BS_Utils] UserInfo found: 2227010564028495: JalapenoSupreme on Oculus
+[INFO @ 23:25:21 | SongCore] Finished reading cached hashes for 9 songs!
+[INFO @ 23:25:21 | SongCore] Finished reading cached Durations for 9 songs!
+[INFO @ 23:25:21 | SongCore] Starting full song refresh
+[NOTICE @ 23:25:21 | SongCore] Folder: 'C:/Program Files/Oculus/Software/Software/hyperbolic-magnetism-beat-saber/Beat Saber_Data\CustomWIPLevels\Cache' is missing info.dat files!
+[INFO @ 23:25:21 | SongCore] Loaded 9 new songs (9) in CustomLevels | 0 in seperate folders) in 0.0427667 seconds
+[DEBUG @ 23:25:21 | NalulunaAvatars] UpdateMenuSceneLight
+[INFO @ 23:25:23 | SongCore] Updating cached hashes for 9 songs!
+[INFO @ 23:25:23 | SongCore] Updating cached Map Lengths for 9 songs!
+[DEBUG @ 23:25:24 | NalulunaAvatars] LoadVRMAvatar: 5: 3530
+[DEBUG @ 23:25:24 | NalulunaAvatars] LoadVRMAvatar: 6: 3531
+[DEBUG @ 23:25:24 | NalulunaAvatars] SetVRMSpringBonesEnabled: False
+[DEBUG @ 23:25:24 | NalulunaAvatars] LoadVRMAvatar: 8: 3556
+[DEBUG @ 23:25:24 | NalulunaAvatars] LoadVRMAvatar: 9: 3556
+[DEBUG @ 23:25:24 | NalulunaAvatars] LoadVRMAvatar: 10: 3557
+[DEBUG @ 23:25:24 | NalulunaAvatars] LoadVRMAvatar: 11: 3563
+[DEBUG @ 23:25:24 | NalulunaAvatars] SetAvatarScaleByPlayerHeight: headPos=(0.093, 1.699, -0.106)
+[DEBUG @ 23:25:24 | NalulunaAvatars] SetAvatarScaleByPlayerHeight: scale=1.220, playerEyePos=1.699, avatarEyePos=1.393
+[DEBUG @ 23:25:24 | NalulunaAvatars] LoadVRMAvatar: 12: 3568
+[DEBUG @ 23:25:24 | NalulunaAvatars] LoadVRMAvatar: 13: 3575
+[DEBUG @ 23:25:24 | NalulunaAvatars] LoadVRMAvatar: 15: 3587
+[DEBUG @ 23:25:24 | NalulunaAvatars] LoadVRMAvatar: 17: 3607
+[DEBUG @ 23:25:24 | NalulunaAvatars] UpdateTrackerRole: Tracker not found
+[DEBUG @ 23:25:24 | NalulunaAvatars] No calibration data
+[DEBUG @ 23:25:24 | NalulunaAvatars] LoadVRMAvatar: 18: 3608
+[DEBUG @ 23:25:24 | NalulunaAvatars] LoadVRMAvatar: 19: 3608
+[DEBUG @ 23:25:24 | NalulunaAvatars] LoadVRMAvatar: succeeded: 3609
+[DEBUG @ 23:25:24 | NalulunaAvatars] LoadVRMAvatar: end
+[DEBUG @ 23:25:24 | NalulunaAvatars] SaveAvatarData: AliciaSolid.vrm
+[DEBUG @ 23:25:24 | NalulunaAvatars] SaveAvatarData: succeeded
+[DEBUG @ 23:25:26 | NalulunaAvatars] UpdateBlendShapeChoices: count=17
+[DEBUG @ 23:25:26 | NalulunaAvatars] Listing VRM start
+[DEBUG @ 23:25:26 | NalulunaAvatars] Listing VRM done, sec=0.005
+[DEBUG @ 23:25:26 | NalulunaAvatars] ProcessThumbnails start
+[DEBUG @ 23:25:26 | NalulunaAvatars] ThumbnailCache read: sec=0.003
+[DEBUG @ 23:25:26 | NalulunaAvatars] ThumbnailCache generate: count=0
+[DEBUG @ 23:25:26 | NalulunaAvatars] ProcessThumbnails done, sec=0.047
+[DEBUG @ 23:25:26 | NalulunaAvatars] UpdateMirror
+[DEBUG @ 23:25:28 | NalulunaAvatars] ResetPoseForCalibrate: begin
+[DEBUG @ 23:25:28 | NalulunaAvatars] ResetPoseForCalibrate: 1
+[DEBUG @ 23:25:28 | NalulunaAvatars] ResetPoseForCalibrate: 2
+[DEBUG @ 23:25:28 | NalulunaAvatars] SetVRMSpringBonesEnabled: False
+[DEBUG @ 23:25:28 | NalulunaAvatars] ResetPoseForCalibrate: 3
+[DEBUG @ 23:25:28 | NalulunaAvatars] ResetPoseForCalibrate: end
+[DEBUG @ 23:25:28 | NalulunaAvatars] SetAvatarScaleByPlayerHeight: headPos=(0.125, 1.686, -0.101)
+[DEBUG @ 23:25:28 | NalulunaAvatars] SetAvatarScaleByPlayerHeight: scale=1.210, playerEyePos=1.686, avatarEyePos=1.393
+[CRITICAL @ 23:25:28 | UnityEngine] DllNotFoundException: openvr_api
+[CRITICAL @ 23:25:28 | UnityEngine] Valve.VR.OpenVR.GetInitToken () (at <c8b4821f87ea41aa9b5e7cedf3b733d8>:0)
+[CRITICAL @ 23:25:28 | UnityEngine] Valve.VR.OpenVR+COpenVRContext.CheckClear () (at <c8b4821f87ea41aa9b5e7cedf3b733d8>:0)
+[CRITICAL @ 23:25:28 | UnityEngine] Valve.VR.OpenVR+COpenVRContext.VRSystem () (at <c8b4821f87ea41aa9b5e7cedf3b733d8>:0)
+[CRITICAL @ 23:25:28 | UnityEngine] Valve.VR.OpenVR.get_System () (at <c8b4821f87ea41aa9b5e7cedf3b733d8>:0)
+[CRITICAL @ 23:25:28 | UnityEngine] i{Q><qs.UpdateAvatarPosition (UnityEngine.GameObject <<lllln, UnityEngine.Animator Wh[IUQF, UnityEngine.Transform Idq=@Bx, UnityEngine.Transform W}STzqE, UnityEngine.Transform bACRnFZ, UnityEngine.Transform OnFexMU, i{Q><qs+veZw?YP gocPYJe, System.Boolean {FMU>vQ, System.Single nDokPO=, System.Boolean OV}{mNj) (at <d0c8e5e1cabe49c7a25cee25fd1f9255>:0)
+[CRITICAL @ 23:25:28 | UnityEngine] NalulunaAvatars.Main.NalulunaAvatarsController+<UpdateAvatarScaleAndPositionCoroutine>d__122.MoveNext () (at <d0c8e5e1cabe49c7a25cee25fd1f9255>:0)
+[CRITICAL @ 23:25:28 | UnityEngine] UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <451019b49f1347529b43a32c5de769af>:0)
+[CRITICAL @ 23:25:28 | UnityEngine] UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+[CRITICAL @ 23:25:28 | UnityEngine] NalulunaAvatars.Main.<CalibrateCoroutine>d__29:MoveNext()
+[CRITICAL @ 23:25:28 | UnityEngine] UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+[CRITICAL @ 23:25:28 | UnityEngine] NalulunaAvatars.Main.ListViewController:RQ{pv`o()
+[CRITICAL @ 23:25:28 | UnityEngine] System.Reflection.MethodBase:Invoke(Object, Object[])
+[CRITICAL @ 23:25:28 | UnityEngine] BeatSaberMarkupLanguage.Parser.BSMLAction:Invoke(Object[])
+[CRITICAL @ 23:25:28 | UnityEngine] BeatSaberMarkupLanguage.TypeHandlers.<>c__DisplayClass4_0:<HandleType>b__0()
+[CRITICAL @ 23:25:28 | UnityEngine] UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+[CRITICAL @ 23:25:28 | UnityEngine] VRUIControls.VRInputModule:ProcessMousePress(MouseButtonEventData)
+[CRITICAL @ 23:25:28 | UnityEngine] VRUIControls.VRInputModule:Process()
+[CRITICAL @ 23:25:28 | UnityEngine] UnityEngine.EventSystems.EventSystem:Update()
+[CRITICAL @ 23:25:33 | UnityEngine] NullReferenceException: routine is null
+[CRITICAL @ 23:25:33 | UnityEngine] UnityEngine.MonoBehaviour.StopCoroutine (UnityEngine.Coroutine routine) (at <451019b49f1347529b43a32c5de769af>:0)
+[CRITICAL @ 23:25:33 | UnityEngine] NalulunaAvatars.Main.ListViewController+<CalibrateCoroutine>d__29.<>m__Finally2 () (at <d0c8e5e1cabe49c7a25cee25fd1f9255>:0)
+[CRITICAL @ 23:25:33 | UnityEngine] NalulunaAvatars.Main.ListViewController+<CalibrateCoroutine>d__29.MoveNext () (at <d0c8e5e1cabe49c7a25cee25fd1f9255>:0)
+[CRITICAL @ 23:25:33 | UnityEngine] UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <451019b49f1347529b43a32c5de769af>:0)
+[DEBUG @ 23:25:48 | NalulunaAvatars] UpdateMirrorButtons
+[DEBUG @ 23:25:48 | NalulunaAvatars] UpdateMirror
+[DEBUG @ 23:25:49 | NalulunaAvatars] LeftScreenViewController: UpdateView
+[DEBUG @ 23:25:49 | NalulunaAvatars] UpdateMirrorButtons
+[DEBUG @ 23:25:50 | NalulunaAvatars] LeftScreenViewController: UpdateView
+[DEBUG @ 23:25:50 | NalulunaAvatars] UpdateMirrorButtons
+[DEBUG @ 23:25:52 | NalulunaAvatars] UpdateMirror
+[DEBUG @ 23:26:11 | NalulunaAvatars] UpdateMirror
+[DEBUG @ 23:26:11 | IPA/Config] Generated impl WriteTo NalulunaAvatars.PluginConfig<Generated>
+[DEBUG @ 23:26:11 | NalulunaAvatars] HelperApp: Start: arg=/oculus
+[DEBUG @ 23:26:12 | NalulunaAvatars] HelperApp started
+[DEBUG @ 23:27:27 | NalulunaAvatars] ResetPoseForCalibrate: begin
+[DEBUG @ 23:27:27 | NalulunaAvatars] ResetPoseForCalibrate: 1
+[DEBUG @ 23:27:27 | NalulunaAvatars] ResetPoseForCalibrate: 2
+[DEBUG @ 23:27:27 | NalulunaAvatars] SetVRMSpringBonesEnabled: False
+[DEBUG @ 23:27:27 | NalulunaAvatars] ResetPoseForCalibrate: 3
+[DEBUG @ 23:27:27 | NalulunaAvatars] ResetPoseForCalibrate: end
+[DEBUG @ 23:27:27 | NalulunaAvatars] SetAvatarScaleByPlayerHeight: headPos=(0.058, 1.681, -0.045)
+[DEBUG @ 23:27:27 | NalulunaAvatars] SetAvatarScaleByPlayerHeight: scale=1.206, playerEyePos=1.681, avatarEyePos=1.393
+[CRITICAL @ 23:27:27 | UnityEngine] DllNotFoundException: openvr_api
+[CRITICAL @ 23:27:27 | UnityEngine] Valve.VR.OpenVR.GetInitToken () (at <c8b4821f87ea41aa9b5e7cedf3b733d8>:0)
+[CRITICAL @ 23:27:27 | UnityEngine] Valve.VR.OpenVR+COpenVRContext.CheckClear () (at <c8b4821f87ea41aa9b5e7cedf3b733d8>:0)
+[CRITICAL @ 23:27:27 | UnityEngine] Valve.VR.OpenVR+COpenVRContext.VRSystem () (at <c8b4821f87ea41aa9b5e7cedf3b733d8>:0)
+[CRITICAL @ 23:27:27 | UnityEngine] Valve.VR.OpenVR.get_System () (at <c8b4821f87ea41aa9b5e7cedf3b733d8>:0)
+[CRITICAL @ 23:27:27 | UnityEngine] i{Q><qs.UpdateAvatarPosition (UnityEngine.GameObject <<lllln, UnityEngine.Animator Wh[IUQF, UnityEngine.Transform Idq=@Bx, UnityEngine.Transform W}STzqE, UnityEngine.Transform bACRnFZ, UnityEngine.Transform OnFexMU, i{Q><qs+veZw?YP gocPYJe, System.Boolean {FMU>vQ, System.Single nDokPO=, System.Boolean OV}{mNj) (at <d0c8e5e1cabe49c7a25cee25fd1f9255>:0)
+[CRITICAL @ 23:27:27 | UnityEngine] NalulunaAvatars.Main.NalulunaAvatarsController+<UpdateAvatarScaleAndPositionCoroutine>d__122.MoveNext () (at <d0c8e5e1cabe49c7a25cee25fd1f9255>:0)
+[CRITICAL @ 23:27:27 | UnityEngine] UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <451019b49f1347529b43a32c5de769af>:0)
+[CRITICAL @ 23:27:27 | UnityEngine] UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+[CRITICAL @ 23:27:27 | UnityEngine] NalulunaAvatars.Main.<CalibrateCoroutine>d__29:MoveNext()
+[CRITICAL @ 23:27:27 | UnityEngine] UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+[CRITICAL @ 23:27:27 | UnityEngine] NalulunaAvatars.Main.ListViewController:RQ{pv`o()
+[CRITICAL @ 23:27:27 | UnityEngine] System.Reflection.MethodBase:Invoke(Object, Object[])
+[CRITICAL @ 23:27:27 | UnityEngine] BeatSaberMarkupLanguage.Parser.BSMLAction:Invoke(Object[])
+[CRITICAL @ 23:27:27 | UnityEngine] BeatSaberMarkupLanguage.TypeHandlers.<>c__DisplayClass4_0:<HandleType>b__0()
+[CRITICAL @ 23:27:27 | UnityEngine] UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+[CRITICAL @ 23:27:27 | UnityEngine] VRUIControls.VRInputModule:ProcessMousePress(MouseButtonEventData)
+[CRITICAL @ 23:27:27 | UnityEngine] VRUIControls.VRInputModule:Process()
+[CRITICAL @ 23:27:27 | UnityEngine] UnityEngine.EventSystems.EventSystem:Update()
+[CRITICAL @ 23:27:32 | UnityEngine] NullReferenceException: routine is null
+[CRITICAL @ 23:27:32 | UnityEngine] UnityEngine.MonoBehaviour.StopCoroutine (UnityEngine.Coroutine routine) (at <451019b49f1347529b43a32c5de769af>:0)
+[CRITICAL @ 23:27:32 | UnityEngine] NalulunaAvatars.Main.ListViewController+<CalibrateCoroutine>d__29.<>m__Finally2 () (at <d0c8e5e1cabe49c7a25cee25fd1f9255>:0)
+[CRITICAL @ 23:27:32 | UnityEngine] NalulunaAvatars.Main.ListViewController+<CalibrateCoroutine>d__29.MoveNext () (at <d0c8e5e1cabe49c7a25cee25fd1f9255>:0)
+[CRITICAL @ 23:27:32 | UnityEngine] UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <451019b49f1347529b43a32c5de769af>:0)
+[DEBUG @ 23:28:05 | NalulunaAvatars] ResetPoseForCalibrate: begin
+[DEBUG @ 23:28:05 | NalulunaAvatars] ResetPoseForCalibrate: 1
+[DEBUG @ 23:28:05 | NalulunaAvatars] ResetPoseForCalibrate: 2
+[DEBUG @ 23:28:05 | NalulunaAvatars] SetVRMSpringBonesEnabled: False
+[DEBUG @ 23:28:05 | NalulunaAvatars] ResetPoseForCalibrate: 3
+[DEBUG @ 23:28:05 | NalulunaAvatars] ResetPoseForCalibrate: end
+[DEBUG @ 23:28:05 | NalulunaAvatars] SetAvatarScaleByPlayerHeight: headPos=(0.170, 1.687, -0.083)
+[DEBUG @ 23:28:05 | NalulunaAvatars] SetAvatarScaleByPlayerHeight: scale=1.211, playerEyePos=1.687, avatarEyePos=1.393
+[CRITICAL @ 23:28:05 | UnityEngine] DllNotFoundException: openvr_api
+[CRITICAL @ 23:28:05 | UnityEngine] Valve.VR.OpenVR.GetInitToken () (at <c8b4821f87ea41aa9b5e7cedf3b733d8>:0)
+[CRITICAL @ 23:28:05 | UnityEngine] Valve.VR.OpenVR+COpenVRContext.CheckClear () (at <c8b4821f87ea41aa9b5e7cedf3b733d8>:0)
+[CRITICAL @ 23:28:05 | UnityEngine] Valve.VR.OpenVR+COpenVRContext.VRSystem () (at <c8b4821f87ea41aa9b5e7cedf3b733d8>:0)
+[CRITICAL @ 23:28:05 | UnityEngine] Valve.VR.OpenVR.get_System () (at <c8b4821f87ea41aa9b5e7cedf3b733d8>:0)
+[CRITICAL @ 23:28:05 | UnityEngine] i{Q><qs.UpdateAvatarPosition (UnityEngine.GameObject <<lllln, UnityEngine.Animator Wh[IUQF, UnityEngine.Transform Idq=@Bx, UnityEngine.Transform W}STzqE, UnityEngine.Transform bACRnFZ, UnityEngine.Transform OnFexMU, i{Q><qs+veZw?YP gocPYJe, System.Boolean {FMU>vQ, System.Single nDokPO=, System.Boolean OV}{mNj) (at <d0c8e5e1cabe49c7a25cee25fd1f9255>:0)
+[CRITICAL @ 23:28:05 | UnityEngine] NalulunaAvatars.Main.NalulunaAvatarsController+<UpdateAvatarScaleAndPositionCoroutine>d__122.MoveNext () (at <d0c8e5e1cabe49c7a25cee25fd1f9255>:0)
+[CRITICAL @ 23:28:05 | UnityEngine] UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <451019b49f1347529b43a32c5de769af>:0)
+[CRITICAL @ 23:28:05 | UnityEngine] UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+[CRITICAL @ 23:28:05 | UnityEngine] NalulunaAvatars.Main.<CalibrateCoroutine>d__29:MoveNext()
+[CRITICAL @ 23:28:05 | UnityEngine] UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+[CRITICAL @ 23:28:05 | UnityEngine] NalulunaAvatars.Main.ListViewController:RQ{pv`o()
+[CRITICAL @ 23:28:05 | UnityEngine] System.Reflection.MethodBase:Invoke(Object, Object[])
+[CRITICAL @ 23:28:05 | UnityEngine] BeatSaberMarkupLanguage.Parser.BSMLAction:Invoke(Object[])
+[CRITICAL @ 23:28:05 | UnityEngine] BeatSaberMarkupLanguage.TypeHandlers.<>c__DisplayClass4_0:<HandleType>b__0()
+[CRITICAL @ 23:28:05 | UnityEngine] UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+[CRITICAL @ 23:28:05 | UnityEngine] VRUIControls.VRInputModule:ProcessMousePress(MouseButtonEventData)
+[CRITICAL @ 23:28:05 | UnityEngine] VRUIControls.VRInputModule:Process()
+[CRITICAL @ 23:28:05 | UnityEngine] UnityEngine.EventSystems.EventSystem:Update()
+[CRITICAL @ 23:28:10 | UnityEngine] NullReferenceException: routine is null
+[CRITICAL @ 23:28:10 | UnityEngine] UnityEngine.MonoBehaviour.StopCoroutine (UnityEngine.Coroutine routine) (at <451019b49f1347529b43a32c5de769af>:0)
+[CRITICAL @ 23:28:10 | UnityEngine] NalulunaAvatars.Main.ListViewController+<CalibrateCoroutine>d__29.<>m__Finally2 () (at <d0c8e5e1cabe49c7a25cee25fd1f9255>:0)
+[CRITICAL @ 23:28:10 | UnityEngine] NalulunaAvatars.Main.ListViewController+<CalibrateCoroutine>d__29.MoveNext () (at <d0c8e5e1cabe49c7a25cee25fd1f9255>:0)
+[CRITICAL @ 23:28:10 | UnityEngine] UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <451019b49f1347529b43a32c5de769af>:0)
+[DEBUG @ 23:28:16 | NalulunaAvatars] Plugin.OnDisable
+[DEBUG @ 23:28:16 | NalulunaAvatars] NalulunaAvatarsController: OnDestroy()
+[DEBUG @ 23:28:16 | NalulunaAvatars] SaveAvatarData: AliciaSolid.vrm
+[DEBUG @ 23:28:17 | NalulunaAvatars] SaveAvatarData: succeeded
+[DEBUG @ 23:28:17 | NalulunaAvatars] Removing Harmony patches
+[DEBUG @ 23:28:17 | IPA/Config] Generated impl WriteTo NalulunaAvatars.PluginConfig<Generated>
+[DEBUG @ 23:28:17 | IPA/Config] Generated impl WriteTo SiraUtil.Config<Generated>
+[DEBUG @ 23:28:17 | IPA/Config] Generated impl WriteTo SongCore.SConfiguration<Generated>
+[DEBUG @ 23:28:17 | IPA/Config] Generated impl WriteTo BeatSaberMarkupLanguage.Config<Generated>
+[DEBUG @ 23:28:17 | IPA/Config] Generated impl WriteTo IPA.Loader.DisabledConfig<Generated>
+[DEBUG @ 23:28:17 | IPA/Config] Generated impl WriteTo IPA.Config.SelfConfig<Generated>
+[DEBUG @ 23:28:17 | BeatSaberMarkupLanguage] NotifyUpdater destroyed.
+[DEBUG @ 23:28:17 | BeatSaberMarkupLanguage] NotifyUpdater destroyed.
+[DEBUG @ 23:28:17 | BeatSaberMarkupLanguage] NotifyUpdater destroyed.
+[DEBUG @ 23:28:17 | BeatSaberMarkupLanguage] NotifyUpdater destroyed.
+[INFO @ 23:28:17 | ScoreSaber] Upload service succesfully deconstructed
+[INFO @ 23:28:17 | UnityEngine] UnityResourceDestroyer.OnDestroy
